@@ -1,0 +1,30 @@
+.btn {
+    margin-left: 45%;
+
+    button {
+        padding: 15px 15px;
+        outline: none;
+        border: none;
+        background-color: rgb(35, 151, 197);
+transition: .3s;
+        &:hover {
+            background-color: rgb(25, 77, 77);
+            color: aliceblue;
+        }
+
+    }
+}
+.resp{
+    button{
+        width: 70px;
+        height: 30px;
+        outline: none;
+        border: none;
+        background-color: rgb(176, 208, 221);
+        &:hover {
+            background-color: rgb(193, 218, 218);
+            color: aliceblue;
+        }
+    }
+    
+}

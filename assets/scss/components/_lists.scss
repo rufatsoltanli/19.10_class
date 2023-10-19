@@ -1,0 +1,13 @@
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    li{
+        color: aliceblue;
+        transition: .3s;
+        &:hover{
+            color: rgb(157, 182, 204);
+        }
+    }
+}

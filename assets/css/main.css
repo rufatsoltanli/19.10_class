@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  font-family: "Gabarito", sans-serif;
+}
+
+.strtbts {
+  font-family: "Poppins", sans-serif;
+}
+
+.midtext {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  margin-left: 45%;
+}
+.btn button {
+  padding: 15px 15px;
+  outline: none;
+  border: none;
+  background-color: rgb(35, 151, 197);
+  transition: 0.3s;
+}
+.btn button:hover {
+  background-color: rgb(25, 77, 77);
+  color: aliceblue;
+}
+
+.resp button {
+  width: 70px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: rgb(176, 208, 221);
+}
+.resp button:hover {
+  background-color: rgb(193, 218, 218);
+  color: aliceblue;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  color: aliceblue;
+  transition: 0.3s;
+}
+ul li:hover {
+  color: rgb(157, 182, 204);
+}
+
+nav {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
+  background-position: center;
+  height: 50vh;
+  background-size: cover;
+  width: 100%;
+}
+nav .hovrlay {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0.6;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+  height: 100%;
+}
+
+.headertext {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headertext h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 64px;
+}
+.headertext .blogtheme {
+  font-size: 35px;
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    max-width: 100%;
+  }
+}
+.navmenu {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0%;
+  max-width: 100%;
+  padding-top: 20px;
+}
+.navmenu .strtbts {
+  font-size: 32px;
+  color: aliceblue;
+}
+.navmenu .resp {
+  visibility: hidden;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1300px) {
+  .navmenu {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  .navmenu .resp {
+    visibility: visible;
+    z-index: 3;
+    padding-left: 33%;
+  }
+  .navmenu .hasc {
+    display: none;
+  }
+}
+footer {
+  padding-top: 50px;
+}
+footer #footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+footer #footer .ficons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+footer #footer .ficons i {
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(3, 8, 53);
+  text-align: center;
+  padding: 15px;
+  font-size: 20px 0;
+}
+footer #footer .ficons i .fa-facebook-f {
+  padding: 0 10px;
+}
+footer #footer .cprght {
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  footer {
+    max-width: 100%;
+  }
+}
+main {
+  position: relative;
+}
+
+#newscont {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  min-height: 100vh;
+  max-width: 100vh;
+  gap: 80px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+#newscont .news {
+  width: 500px;
+  height: 180px;
+  border-bottom: 1px solid rgb(138, 137, 137);
+  position: relative;
+}
+#newscont .news h2 {
+  font-size: 30px;
+  transition: 0.3s;
+  padding-bottom: 5px;
+}
+#newscont .news h2:hover {
+  color: rgb(67, 131, 143);
+}
+#newscont .news .midtxt {
+  font-family: "Poppins", sans-serif;
+  padding-top: 3px;
+  padding-bottom: 40px;
+}
+#newscont .news .botxt {
+  left: 0;
+  bottom: 0px;
+  position: absolute;
+}/*# sourceMappingURL=main.css.map */
